@@ -1,0 +1,15 @@
+Package: FishBaseR
+Type: Package
+Title: Scrape FishBase database (http://www.fishbase.org) for data.
+Version: 0.9.4
+Date: 2013-05-06
+Author: Jorge Cornejo-Donoso
+Maintainer: Jorge Cornejo-Donoso <jcornejo@lifesci.ucsb.edu>
+Description: Scrape the HTML webpages served by the FishBase server for
+        data in a usable format. 
+	Is is possible to get the most part of the tables with data from FishBase. The
+	webpages with information in text, are not used, but it is possible to scrape
+	them if are needed. If you have an special request, I can consider to add it.
+Depends: R (>= 2.13.2), XML, stringr, RCurl
+License: GPL-2
+LazyLoad: yes
